@@ -4,7 +4,7 @@
 [![downloads on GitHub](https://img.shields.io/github/downloads/clue/phar-composer/total?color=blue&label=downloads%20on%20GitHub)](https://github.com/clue/phar-composer/releases)
 [![installs on Packagist](https://img.shields.io/packagist/dt/clue/phar-composer?color=blue&label=installs%20on%20Packagist)](https://packagist.org/packages/clue/phar-composer)  
 
-Simple phar creation for any project managed via Composer.
+Simple phar creation for any project managed via Composer.hhh
 
 It takes your existing project's `composer.json` and builds an executable phar
 for your project among with its bundled dependencies.
@@ -117,7 +117,7 @@ $ phpunit
 > In essence, the `install` command will basically just issue a `build` and then
 `sudo mv $target.phar /usr/local/bin/$target`. It will ask you for your sudo password
 when necessary, so it's not needed (and in fact not *recommended*) to run the whole
-comamnd via `sudo`.
+command via `sudo`.
 >
 > Windows limitation: Note that this subcommand is not available on Windows.
   Please use the `build` command and place Phar in your `$PATH` manually.
